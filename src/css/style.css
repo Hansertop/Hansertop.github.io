@@ -1,0 +1,168 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container{
+    float: left;
+    margin: 432px 6px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px;
+    
+}
+
+
+.second h2{
+    padding: 110px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.cherta1{
+    margin: 33px 920px 60px 920px;
+}
+
+.photo{
+    margin: 0px 928px 32px 860px;
+}
+
+.title_second{
+    text-align: center;
+    color: #3f495a;
+    
+}
+
+.text_two{
+    color: #333366;
+    text-align: center;
+    margin: 43px;   
+}
+
+.input_type{
+    width: 125px;
+    height: 30px;
+    color: #3f495a;
+    border: 1px solid #3f495a;
+    background: none;
+    border-radius: 6px;
+    
+}
+
+.icon_z{
+    padding: 6.5px 0px 20px;
+}
+
+.backg2{
+    width: 100%;
+    height: 100%;
+}
+
+.third h2{
+    padding: 110px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.cherta2{
+    margin: 0px 920px 0px 920px;
+}
+.web{
+    color: #cf7600;
+    font-weight: bold;
+    padding-left: 435px;
+}
+
+.web2{
+    color: #cf7600;
+    font-weight: bold;
+    padding-left: 679px;
+    padding-top: 0px;
+}
+
+.web3{
+    color: #cf7600;
+    font-weight: bold;
+}
+
+.web4{
+    color: #cf7600;
+    font-weight: bold;
+}
+
+.loremtext{
+    color: #3f495a;
+    margin-top: 23px;
+    padding-left: 335px;
+}
+
+.loremtext2{
+    color: #3f495a;
+}
+.loremtext3{
+    color: #3f495a;
+}
+.loremtext4{
+    color: #3f495a;
+}
