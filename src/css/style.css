@@ -131,51 +131,66 @@ nav{
 
 .title_third{
     background: url(../img/bg3.jpg) center/cover no-repeat; 
-    padding-bottom: 150px;
+    padding-bottom: 230px;
 }
 .cherta2{
-    margin: 0px 920px 0px 920px;
+    margin: 0px 920px 100px 920px;
 }
+
+
+.third li{
+    float: left;
+    width: 250px;
+    margin: 0px 95px 0px 95px;
+}
+
 .web{
-    color: #cf7600;
+    color: #d89558;
     font-weight: bold;
-    padding-left: 200px;
-    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .web2{
-    color: #cf7600;
+    color: #d89558;
     font-weight: bold;
-    padding-left: 500px;
-    padding-top: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .web3{
-    color: #cf7600;
+    color: #d89558;
     font-weight: bold;
-    padding-left: 600px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .web4{
-    color: #cf7600;
+    color: #d89558;
     font-weight: bold;
-    padding-left: 700px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.loremtext{
-    color: #3f495a;
-    margin-top: 23px;
-    padding-left: 335px;
+.znak1{
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
 
-.loremtext2{
-    color: #3f495a;
+.znak2{
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
-.loremtext3{
-    color: #3f495a;
+
+.znak3{
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
-.loremtext4{
-    color: #3f495a;
+
+.znak4{
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
 
 .forth h2{
@@ -186,6 +201,11 @@ nav{
     font-weight: bold;
     font-size: 24px;
     padding-bottom: 39px;
+}
+
+.text_whatican{
+    color: #616876;
+    font-weight: bold;
 }
 
 .text4{
@@ -200,6 +220,7 @@ nav{
     width: 100%;
     height: 100%;
     padding: 30px 392px 10px;
+    float: left;
     font-weight: bold;
     font-size: 18px;
     
@@ -219,7 +240,11 @@ nav{
     padding: 10px 673px 10px
 }
 .name_project{
-    padding-top: 44px;
+    padding-top: 0px;
+}
+
+.backg4{
+    padding-bottom: 0px;
 }
 
 .visit{
@@ -296,35 +321,17 @@ nav{
     padding-top: 50px;
 }
 
-.span6{
-    padding: 30px 200px 0px 200px;
-    color: #323e4f;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.span7{
-    padding: 30px 145px 0px 145px;
-}
-
 .cherta6{
     margin: 0px 920px 0px 920px;
 }
-
-.smile1{
-    margin-left: 188px;
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 7px;
+.sixth div{
+    display: block;
 }
 
-.skobki1{
-    margin-left: 288px;
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 7px;
+.someStatistic1{
+    float: left;
+    margin: 0px 50px;
 }
-
 .seventh h2{
     padding: 39px 110px;
     width: 100%;
@@ -332,6 +339,14 @@ nav{
     text-align: center;
     font-weight: bold;
     font-size: 27px;
+}
+
+.reviewsPoints{
+    background: url(../img/orange.png) left no-repeat, url(../img/orange2.png) center no-repeat, url(../img/orange3.png) right no-repeat;
+    width: 60px;
+    height: 10px;
+    margin: 25px auto;
+    margin-top: 50px;
 }
 
 .boy7{
@@ -354,19 +369,8 @@ nav{
     padding-left: 837px;
 }
 
-.radio1{
-    margin-right: 10px;
-    margin-top: 40px;
-    margin-left: 940px;
-    background: url(../img/orange.png) 100% center;
-}
-
-.radio2{
-    margin-right: 10px;
-}
-
-
 .eighth h2{
+    margin-top: 30px;
     padding: 100px 190px;
     width: 100%;
     height: 100%;
@@ -395,12 +399,75 @@ nav{
     color: white;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
-.span8{
+.point{
+    float: left;
+    width: 200px;
     color: white;
+    padding: 0px 350px 0px 500px;
 }
 
+.geo1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.piter{
+    margin-left: 1px;
+}
+
+.mail{
+    float: left;
+    width: 200px;
+    color: white;
+    margin-right: 150px;
+}
+
+.mail1{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.phone{
+    float: left;
+    width: 200px;
+    color: white; 
+}
+
+.phone1{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 100%;
+}
+
+.form textarea{
+    width: 380px;
+    height: 100px;
+}
+.form input, textarea{
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
+
+.submit{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.map{
+    text-align: center;
+}
 .end{
     text-align: center;
     padding-top: 37px;
