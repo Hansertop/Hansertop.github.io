@@ -19,6 +19,7 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 10;
 }
 
 .logo{
@@ -59,6 +60,7 @@ nav{
     float: left;
     color: #2c384a;
     text-align: center;
+    width: 100%;
     opacity: 0;
     -webkit-animation: titlemove 1s ease forwards;
     -o-animation: titlemove 1s ease forwards;
@@ -69,8 +71,9 @@ nav{
 }
 
 .title_container h1{
-    font-size: 60px;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 73px;
+    font-weight: 600;
 }
 
 .title_container h4{
@@ -149,7 +152,7 @@ nav{
     }
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 0px;
     }
 }
 
@@ -188,11 +191,11 @@ nav{
 }
 
 .cherta1{
-    margin: 33px 920px 60px 920px;
+    
 }
 
 .photo{
-    margin: 0px 928px 32px 860px;
+    
     opacity: 0;
     -webkit-animation: photomove 10s ease forwards;
     -o-animation: photomove 10s ease forwards;
@@ -202,11 +205,11 @@ nav{
 @keyframes photomove{
     from{
         opacity: 0;
-        margin-left: -400px;
+        margin-left: -500px;
     }
     to{
         opacity: 1;
-        margin-left: 860px;
+        margin-left: 0px;
     }
 }
 
@@ -677,4 +680,27 @@ font-size: 27px;
 
 .white-btn:visited{
    color: white;
+}
+
+@media (max-width: 991px){
+    .title_container, .title_container h4, .title_container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title_container input{
+        border: 2px solid #fff;
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4)
+    }
 }
